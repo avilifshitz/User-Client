@@ -1,0 +1,202 @@
+/* Your app's CSS, go crazy, make it your own */
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+body{
+	font-family: 'Open Sans Hebrew', serif;
+}
+
+
+/* ionic css changes */
+
+.bar.db-main-bar {
+	background-color: #111;
+	border-color: #000;
+	background-image: none;
+	color: #fff;
+}
+
+.db-nav-bar-logo {
+	position: relative;
+	top: 6px;
+}
+
+.dp-custom-menu-nav-bar-btn{
+	opacity: 0.5;
+}
+
+/***************************
+Default Page Styles
+***************************/
+.dp-default-page-wrapper{
+	background-color: #111;
+}
+
+/***************************
+Login Page
+***************************/
+
+.ionic-logo {
+  display: block;
+  margin: 15px auto;
+  width: 96px;
+  height: 96px;
+}
+
+.dp-login-wrapper{
+	
+}
+
+.dp-login-container{
+	direction:rtl;
+	text-align:center;
+	max-width: 360px;
+	margin:0 auto;
+	font-weight:100;
+}
+
+.dp-login-container .title{
+	color: #fff;
+	font-size:21px;
+	line-height:21px;
+	margin-bottom: 20px;
+}
+
+.dp-login-container .description{
+	color: #fff;
+	font-size: 18px;
+	line-height: 26px;
+	margin: 0 auto;
+	max-width: 260px;	
+}
+
+.green-text{
+	color: #30b675;
+}
+
+.pink-text{
+	color: #d91b5b;
+}
+
+.gray-text{
+	color: #545454;
+}
+
+.dp-login-container .moto{
+	color: #fff;
+	font-size: 38px;
+	line-height: 38px;
+	max-width: 100px;
+	margin: 30px auto 0 auto;
+}
+
+.dp-login-wrapper .fb-login-wrapper {
+	height:75px;	
+	border-top-width: 0px;
+}
+
+.dp-login-wrapper .fb-login-btn{
+	background-color: #3b5998;
+	height:75px;
+}
+
+.fb-login-btn.fix-for-link {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.dp-login-wrapper .fb-login-btn:active{
+	background-color: #304a81;
+	height:75px;
+}
+
+.dp-login-wrapper .fb-login-btn .btn-text{
+	color:#fff;
+	position: absolute;
+	top: 13px;
+	right: 0;
+	left: 0;
+	z-index: 0;
+	overflow: hidden;
+	margin: 0 10px;
+	min-width: 30px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 26px;
+	line-height: 26px;	
+}
+
+.dp-login-wrapper .fb-login-btn .restriction{
+	color: #192743;	
+	position: absolute;
+	top: 42px;
+	right: 0;
+	left: 0;
+	z-index: 0;
+	overflow: hidden;
+	margin: 0 10px;
+	min-width: 30px;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.dp-login-wrapper .fb-login-btn .fb-logo{
+	position: absolute;
+	top: 18px;
+	right: 0;
+	left: 50%;
+	z-index: 0;
+	overflow: hidden;
+	margin: 0 10px;
+	height: 36px;
+	width: 20px;
+	margin-left: -150px;	
+}
+
+/***************************
+Landign Page
+***************************/
+.dp-splash-wrapper {
+}
+
+.dp-splash-container {
+	direction:rtl;
+	text-align:center;
+	max-width: 360px;
+	margin:50px auto;
+	font-weight:100;
+}
+
+.dp-splash-container .dp-splash-logo {
+
+}
+
+.dp-splash-container .dp-splash-slogen {
+	color:#fff;
+	font-size: 16px;
+	font-weight: 100;
+	position: relative;
+	top: -20px;
+}
+
+.dp-splash-wrapper .db-splash-alpha-label{
+	color:#474747;
+	font-size: 13px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 100;
+}
+
+.dp-splash-wrapper .dp-splash-footer {
+	background-color:#111;
+	border-top-width: 0px;
+}
